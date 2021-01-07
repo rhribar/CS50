@@ -1,0 +1,82 @@
+/* Home */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url("./static/books.jpg");
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0
+
+}
+
+.center-nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #33bbde;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 18px !important;
+}
+
+.nav-item {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+/* UVP HERE */
+#UVP-home {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+}
+
+body h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: crimson;
+    padding-top: 20px;
+}
+
+.list {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: block;
+    text-align: center;
+    padding: 0;
+    list-style-type: decimal;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav-item:active {
+    color: grey !important;
+}
